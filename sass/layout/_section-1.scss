@@ -29,18 +29,101 @@
 .section__2 {
     height: 80vh;
     text-align: center;
-    width: 50%;
     margin: 0 auto;
-    padding: 8rem 0;
+    padding: 13rem 0;
 
     &__h2 {
         font-size: $font-h2;
         padding-bottom: 3rem;
+        width: 50%;
+        text-align: center;
+        margin: 0 auto;
     }
 
     &__p {
         font-size: $font-size-regular;
+        width: 50%;
+        text-align: center;
+        margin: 0 auto;
 
+    }
+
+    &__cards {
+        display: flex;
+        justify-content: space-around;
+        padding-top: 7rem;
+        width: 80%;
+        margin: 0 auto;
+
+        &__card {
+            
+            
+            &__h4 {
+                font-size: $font-size-regular;
+                padding: 3rem;
+            }
+
+            i {
+                font-size: 10rem;
+            }
+        }
+    }
+}
+
+.section--background--3 {
+    background-image: linear-gradient(to right bottom,
+    rgba($color-white, 0.8),
+    rgba($color-white, 0.8)),
+    url(/img/landscape-mountains-nature-sky-129105.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+
+.section__3 {
+    height: 80vh;
+    text-align: center;
+    margin: 0 auto;
+    padding: 13rem 0;
+
+    &__h2 {
+        font-size: $font-h2;
+        padding-bottom: 3rem;
+        width: 50%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    &__p {
+        font-size: $font-size-regular;
+        width: 50%;
+        text-align: center;
+        margin: 0 auto;
+
+    }
+
+    &__cards {
+        display: flex;
+        justify-content: space-around;
+        padding-top: 7rem;
+        width: 80%;
+        margin: 0 auto;
+
+        &__card {
+            padding: 2rem;
+            
+            &--active {
+                background-color: $color-primary-dark;
+            }
+            
+            &__h4 {
+                font-size: $font-size-regular;
+                padding: 3rem;
+            }
+
+            i {
+                font-size: 10rem;
+            }
+        }
     }
 
 }
