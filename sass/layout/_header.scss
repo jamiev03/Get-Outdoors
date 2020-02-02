@@ -36,5 +36,24 @@ header {
        width: 10%;
        height: auto;
     }
+
+    &__text {
+        position: absolute;
+        top: 25rem;
+        left: 25rem;
+
+        &__h1 {
+            font-size: 5.5rem;
+            font-weight: 400;
+        }
+
+        &__h2 {
+            font-size: 5.5rem;
+        }
+
+        &__p {
+            font-size: 1.6rem;
+        }
+    }
 }
 
