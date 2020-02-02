@@ -1,0 +1,16 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #388659;
+}
+.navigation {
+    display: flex;
+    justify-content: space-around;
+
+    &__link {
+        margin-right: 1rem;
+        color: white;
+        list-style: none;
+    }
+}
