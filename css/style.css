@@ -55,6 +55,12 @@ header {
   .header__text__p {
     font-size: 1.6rem; }
 
+.section--bg {
+  background-image: url(/img/undraw_friendship_mni7.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat; }
+
 .section__1 {
   text-align: center;
   width: 50%;
