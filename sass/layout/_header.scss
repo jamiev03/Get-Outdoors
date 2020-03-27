@@ -35,6 +35,12 @@ nav {
         color: white;
         list-style: none;
         font-size: $font-size-regular;
+        cursor: pointer;
+        transition: .05s ease-in;
+
+        &:hover {
+            scale: 1.05;
+        }
 
         @include atSmall {
             padding-top: 1.2rem;
@@ -79,7 +85,7 @@ header {
         }
 
         &__h1 {
-            font-size: 5.5rem;
+            font-size: 5.4rem;
             font-weight: 400;
 
             @include atSmall {
@@ -88,7 +94,7 @@ header {
         }
 
         &__h2 {
-            font-size: 5.5rem;
+            font-size: 5.8rem;
 
             @include atSmall {
                 font-size: 4rem;

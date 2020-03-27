@@ -28,7 +28,11 @@ nav {
     margin-right: 1.5rem;
     color: white;
     list-style: none;
-    font-size: 1.6rem; }
+    font-size: 1.6rem;
+    cursor: pointer;
+    transition: .05s ease-in; }
+    .nav__ul__link:hover {
+      scale: 1.05; }
     @media screen and (min-width: 359px) and (max-width: 500px) {
       .nav__ul__link {
         padding-top: 1.2rem; } }
@@ -62,13 +66,13 @@ header {
       top: 20rem;
       left: 10%; } }
   .header__text__h1 {
-    font-size: 5.5rem;
+    font-size: 5.4rem;
     font-weight: 400; }
     @media screen and (min-width: 359px) and (max-width: 500px) {
       .header__text__h1 {
         font-size: 4rem; } }
   .header__text__h2 {
-    font-size: 5.5rem; }
+    font-size: 5.8rem; }
     @media screen and (min-width: 359px) and (max-width: 500px) {
       .header__text__h2 {
         font-size: 4rem; } }
@@ -86,8 +90,11 @@ header {
   text-align: center;
   width: 50%;
   margin: 0 auto;
-  padding: 8rem 0;
-  height: 80vh; }
+  padding: 16rem 0;
+  height: 75vh; }
+  @media screen and (min-width: 359px) and (max-width: 500px) {
+    .section__1 {
+      width: 80%; } }
   .section__1__h2 {
     font-size: 3.5rem;
     padding-bottom: 3rem; }
@@ -102,27 +109,43 @@ header {
   height: auto;
   text-align: center;
   margin: 0 auto;
-  padding: 13rem 0; }
+  padding: 16rem 0; }
   .section__2__h2 {
     font-size: 3.5rem;
     padding-bottom: 3rem;
     width: 50%;
     text-align: center;
     margin: 0 auto; }
+    @media screen and (min-width: 359px) and (max-width: 500px) {
+      .section__2__h2 {
+        width: 80%; } }
   .section__2__p {
     font-size: 1.6rem;
     width: 50%;
     text-align: center;
     margin: 0 auto; }
+    @media screen and (min-width: 359px) and (max-width: 500px) {
+      .section__2__p {
+        width: 80%; } }
   .section__2__cards {
     display: flex;
     justify-content: space-around;
     padding-top: 7rem;
     width: 80%;
     margin: 0 auto; }
+    @media screen and (min-width: 359px) and (max-width: 500px) {
+      .section__2__cards {
+        flex-wrap: wrap;
+        width: 80%; } }
+    @media screen and (min-width: 359px) and (max-width: 500px) {
+      .section__2__cards__card {
+        padding-top: 2.5rem; } }
     .section__2__cards__card__h4 {
       font-size: 1.6rem;
       padding: 3rem; }
+      @media screen and (min-width: 359px) and (max-width: 500px) {
+        .section__2__cards__card__h4 {
+          padding: 0; } }
     .section__2__cards__card i {
       font-size: 10rem; }
 

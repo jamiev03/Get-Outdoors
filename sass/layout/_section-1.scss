@@ -9,8 +9,12 @@
     text-align: center;
     width: 50%;
     margin: 0 auto;
-    padding: 8rem 0;
-    height: 80vh;
+    padding: 16rem 0;
+    height: 75vh;
+
+    @include atSmall {
+        width: 80%;
+    }
 
     &__h2 {
         font-size: $font-h2;
@@ -31,7 +35,7 @@
     height: auto;
     text-align: center;
     margin: 0 auto;
-    padding: 13rem 0;
+    padding: 16rem 0;
 
     &__h2 {
         font-size: $font-h2;
@@ -39,6 +43,10 @@
         width: 50%;
         text-align: center;
         margin: 0 auto;
+
+        @include atSmall {
+            width: 80%;
+        }
     }
 
     &__p {
@@ -46,6 +54,10 @@
         width: 50%;
         text-align: center;
         margin: 0 auto;
+
+        @include atSmall {
+            width: 80%;
+        }
 
     }
 
@@ -56,12 +68,24 @@
         width: 80%;
         margin: 0 auto;
 
-        &__card {
-            
+        @include atSmall {
+            flex-wrap: wrap;
+            width: 80%;
+        }
+
+        &__card { 
+
+            @include atSmall {
+                padding-top: 2.5rem;
+            }
             
             &__h4 {
                 font-size: $font-size-regular;
                 padding: 3rem;
+
+                @include atSmall {
+                    padding: 0;
+                }
             }
 
             i {
