@@ -148,6 +148,7 @@
 
         @include atSmall {
             flex-wrap: wrap;
+            width: 80%;
         }
 
         &__card {
