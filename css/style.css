@@ -9,6 +9,10 @@ nav {
   margin: 0 auto;
   padding-top: 4.2rem;
   width: 80%; }
+  @media screen and (min-width: 359px) and (max-width: 500px) {
+    .nav {
+      flex-wrap: wrap;
+      padding-top: 2.2rem; } }
   .nav__h2 {
     color: #fff;
     font-size: 2.5rem;
@@ -25,12 +29,18 @@ nav {
     color: white;
     list-style: none;
     font-size: 1.6rem; }
+    @media screen and (min-width: 359px) and (max-width: 500px) {
+      .nav__ul__link {
+        padding-top: 1.2rem; } }
   .nav__ul__btn--top {
     text-decoration: none;
     padding: 1rem 3rem;
     border: 1px solid #fff;
     border-radius: 5px;
     color: #fff; }
+    @media screen and (min-width: 359px) and (max-width: 500px) {
+      .nav__ul__btn--top {
+        padding: .8rem 2rem; } }
 
 header {
   height: 70vh;
@@ -49,8 +59,8 @@ header {
   left: 25rem; }
   @media screen and (min-width: 359px) and (max-width: 500px) {
     .header__text {
-      top: 15rem;
-      left: 20%; } }
+      top: 20rem;
+      left: 10%; } }
   .header__text__h1 {
     font-size: 5.5rem;
     font-weight: 400; }
@@ -186,7 +196,7 @@ footer {
   background-color: #388659; }
 
 .btns {
-  width: 30rem;
+  width: 34rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -196,8 +206,11 @@ footer {
     padding: 1.5rem 3.5rem;
     background-color: #388659;
     color: #fff;
+    border-radius: 5px;
     font-size: 1.4rem;
     text-decoration: none; }
+  .btns--play {
+    font-size: 2rem; }
   .btns--non {
     padding: 1.5rem 3.5rem;
     color: #fff;

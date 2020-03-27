@@ -9,6 +9,11 @@ nav {
     margin: 0 auto;
     padding-top: 4.2rem;
     width: 80%; 
+
+    @include atSmall {
+        flex-wrap: wrap;
+        padding-top: 2.2rem;
+    }
     
     &__h2 {
         color: $color-white;
@@ -30,6 +35,10 @@ nav {
         color: white;
         list-style: none;
         font-size: $font-size-regular;
+
+        @include atSmall {
+            padding-top: 1.2rem;
+        }
     }
 
     &__btn--top {
@@ -38,6 +47,10 @@ nav {
         border: 1px solid $color-white;
         border-radius: 5px;
         color: $color-white;
+
+        @include atSmall {
+            padding: .8rem 2rem;
+        }
     }
 }
 
@@ -61,8 +74,8 @@ header {
         left: 25rem;
 
         @include atSmall {
-            top: 15rem;
-            left: 20%;
+            top: 20rem;
+            left: 10%;
         }
 
         &__h1 {

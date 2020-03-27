@@ -1,5 +1,5 @@
 .btns {
-    width: 30rem;
+    width: 34rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -11,8 +11,13 @@
         padding: 1.5rem 3.5rem;
         background-color: $color-primary-dark;
         color: $color-white;
+        border-radius: 5px;
         font-size: 1.4rem;
         text-decoration: none;
+    }
+
+    &--play {
+        font-size: 2rem;
     }
 
     &--non {
