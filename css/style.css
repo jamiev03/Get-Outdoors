@@ -223,10 +223,15 @@ header {
     width: 50%;
     text-align: left; }
     .section__4__p--footer {
-      font-size: 1.6rem; }
+      font-size: 1.6rem;
+      width: 50%;
+      text-align: left; }
       @media screen and (min-width: 359px) and (max-width: 500px) {
         .section__4__p--footer {
-          font-size: 1.4rem; } }
+          font-size: 1.6rem;
+          text-align: center;
+          margin: 0 auto;
+          width: 80%; } }
     @media screen and (min-width: 359px) and (max-width: 500px) {
       .section__4__p {
         font-size: 1.4rem; } }
@@ -239,15 +244,21 @@ header {
         .section__4__cards__card--active {
           padding: 1rem; } }
     .section__4__cards__card__h4 {
-      font-size: 1.6rem;
+      font-size: 2.6rem;
       text-align: left;
       padding-bottom: 2rem; }
       .section__4__cards__card__h4--footer {
-        font-size: 1.6rem; }
+        text-align: left;
+        font-size: 2.6rem;
+        padding-bottom: 2rem; }
         @media screen and (min-width: 359px) and (max-width: 500px) {
           .section__4__cards__card__h4--footer {
-            font-size: 2.4rem;
-            padding-bottom: 1.6rem; } }
+            font-size: 2.6rem;
+            padding-bottom: 1.6rem;
+            text-align: center; } }
+      @media screen and (min-width: 359px) and (max-width: 500px) {
+        .section__4__cards__card__h4 {
+          font-size: 2rem; } }
     .section__4__cards__card__ul {
       list-style: none;
       font-size: 1.6rem;
@@ -260,6 +271,12 @@ header {
 footer {
   height: 12vh;
   background-color: #388659; }
+
+.footer__text {
+  font-size: 1.4rem;
+  color: white;
+  text-align: center;
+  padding: 5rem; }
 
 .btns {
   width: 34rem;
