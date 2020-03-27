@@ -179,24 +179,40 @@
 }
 
 .section__4 {
-    height: 50vh;
+    height: auto;
     text-align: center;
     margin: 0 auto;
-    padding: 10rem 0;
+    padding: 12rem 0;
     display: flex;
     justify-content: space-around;   
     width: 80%;
     margin: 0 auto;
+
+    @include atSmall {
+        flex-wrap: wrap;
+        width: 80%;
+    }
 
     &__p {
         font-size: $font-size-regular;
         width: 50%;
         text-align: left;
 
+        &--footer {
+            font-size: $font-size-regular;
+
+            @include atSmall {
+                font-size: 1.4rem;
+            }
+        }
+
+        @include atSmall {
+            font-size: 1.4rem;
+        }
+
     }
 
     &__cards {
-        
 
         &__card {
             padding: 2rem;
@@ -204,18 +220,36 @@
             
             &--active {
                 background-color: $color-primary-dark;
+
+                @include atSmall {
+                    padding: 1rem;
+                }
             }
             
             &__h4 {
                 font-size: $font-size-regular;
                 text-align: left;
                 padding-bottom: 2rem;
+
+                &--footer {
+                    font-size: $font-size-regular;
+
+                    @include atSmall {
+                        font-size: 2.4rem;
+                        padding-bottom: 1.6rem;
+                    }
+                }
             }
 
             &__ul {
                 list-style: none;
                 font-size: $font-size-regular;
                 text-align: left;
+                cursor: pointer;
+
+                @include atSmall {
+                    font-size: 1.4rem;
+                }
             }
         }
     }
