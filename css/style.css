@@ -148,6 +148,9 @@ header {
           padding: 0; } }
     .section__2__cards__card i {
       font-size: 10rem; }
+      @media screen and (min-width: 359px) and (max-width: 500px) {
+        .section__2__cards__card i {
+          padding-bottom: 2rem; } }
 
 .section--background--3 {
   background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url(../img/landscape-mountains-nature-sky-129105.jpg);
@@ -159,24 +162,33 @@ header {
   height: auto;
   text-align: center;
   margin: 0 auto;
-  padding: 13rem 0; }
+  padding: 16rem 0; }
   .section__3__h2 {
     font-size: 3.5rem;
     padding-bottom: 3rem;
     width: 50%;
     text-align: center;
     margin: 0 auto; }
+    @media screen and (min-width: 359px) and (max-width: 500px) {
+      .section__3__h2 {
+        width: 80%; } }
   .section__3__p {
     font-size: 1.6rem;
     width: 50%;
     text-align: center;
     margin: 0 auto; }
+    @media screen and (min-width: 359px) and (max-width: 500px) {
+      .section__3__p {
+        width: 80%; } }
   .section__3__cards {
     display: flex;
     justify-content: space-around;
     padding-top: 7rem;
     width: 80%;
     margin: 0 auto; }
+    @media screen and (min-width: 359px) and (max-width: 500px) {
+      .section__3__cards {
+        flex-wrap: wrap; } }
     .section__3__cards__card {
       padding: 2rem; }
       .section__3__cards__card--active {
@@ -184,8 +196,13 @@ header {
       .section__3__cards__card__h4 {
         font-size: 1.6rem;
         padding: 3rem; }
+        .section__3__cards__card__h4--name {
+          font-size: 1.4rem; }
       .section__3__cards__card i {
         font-size: 10rem; }
+        @media screen and (min-width: 359px) and (max-width: 500px) {
+          .section__3__cards__card i {
+            padding-top: 2rem; } }
 
 .section__4 {
   height: 50vh;

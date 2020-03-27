@@ -90,6 +90,10 @@
 
             i {
                 font-size: 10rem;
+
+                @include atSmall {
+                    padding-bottom: 2rem;
+                }
             }
         }
     }
@@ -109,7 +113,7 @@
     height: auto;
     text-align: center;
     margin: 0 auto;
-    padding: 13rem 0;
+    padding: 16rem 0;
 
     &__h2 {
         font-size: $font-h2;
@@ -117,6 +121,10 @@
         width: 50%;
         text-align: center;
         margin: 0 auto;
+
+        @include atSmall {
+            width: 80%;
+        }
     }
 
     &__p {
@@ -124,6 +132,10 @@
         width: 50%;
         text-align: center;
         margin: 0 auto;
+
+        @include atSmall {
+            width: 80%;
+        }
 
     }
 
@@ -133,6 +145,10 @@
         padding-top: 7rem;
         width: 80%;
         margin: 0 auto;
+
+        @include atSmall {
+            flex-wrap: wrap;
+        }
 
         &__card {
             padding: 2rem;
@@ -144,10 +160,18 @@
             &__h4 {
                 font-size: $font-size-regular;
                 padding: 3rem;
+
+                &--name {
+                    font-size: 1.4rem;
+                }
             }
 
             i {
                 font-size: 10rem;
+
+                @include atSmall {
+                    padding-top: 2rem;
+                }
             }
         }
     }
