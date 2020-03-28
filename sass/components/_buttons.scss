@@ -5,6 +5,10 @@
     align-items: center;
     text-transform: uppercase;
     margin-top: 3.5rem;
+
+    @include atSmall {
+        margin-top: 8rem;
+    }
     
 
     &--active {
