@@ -64,9 +64,9 @@
     &__cards {
         display: flex;
         justify-content: space-between;
-        align-items: center;
+        align-items: flex-start;
         padding-top: 7rem;
-        width: 100%;
+        width: 80%;
         margin: 0 auto;
 
         @include atSmall {
@@ -75,6 +75,8 @@
         }
 
         &__card { 
+            width: 33%;
+            padding: 2rem;
 
             @include atSmall {
                 padding-top: 2.5rem;
@@ -152,12 +154,12 @@
         }
 
         &__card {
+            width: 33%;
             padding: 2rem;
             
             &--active {
                 background-color: $color-primary-dark;
                 border-radius: 5px;
-                padding: 2rem;
             }
             
             &__h4 {
@@ -193,7 +195,7 @@
     margin: 0 auto;
     padding: 12rem 0;
     display: flex;
-    justify-content: space-between   
+    justify-content: space-between;   
     width: 80%;
     margin: 0 auto;
 

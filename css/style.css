@@ -141,7 +141,7 @@ header {
   .section__2__cards {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     padding-top: 7rem;
     width: 80%;
     margin: 0 auto; }
@@ -149,20 +149,23 @@ header {
       .section__2__cards {
         flex-wrap: wrap;
         width: 80%; } }
-    @media screen and (min-width: 359px) and (max-width: 500px) {
-      .section__2__cards__card {
-        padding-top: 2.5rem; } }
-    .section__2__cards__card__h4 {
-      font-size: 1.6rem;
-      padding: 3rem; }
+    .section__2__cards__card {
+      width: 33%;
+      padding: 2rem; }
       @media screen and (min-width: 359px) and (max-width: 500px) {
-        .section__2__cards__card__h4 {
-          padding: 0; } }
-    .section__2__cards__card img {
-      width: 300px;
-      height: 235px;
-      display: inline-block;
-      border-radius: 5px; }
+        .section__2__cards__card {
+          padding-top: 2.5rem; } }
+      .section__2__cards__card__h4 {
+        font-size: 1.6rem;
+        padding: 3rem; }
+        @media screen and (min-width: 359px) and (max-width: 500px) {
+          .section__2__cards__card__h4 {
+            padding: 0; } }
+      .section__2__cards__card img {
+        width: 300px;
+        height: 235px;
+        display: inline-block;
+        border-radius: 5px; }
 
 .section--background--3 {
   background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url(../img/landscape-mountains-nature-sky-129105.jpg);
@@ -194,7 +197,7 @@ header {
         width: 80%; } }
   .section__3__cards {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding-top: 7rem;
     width: 80%;
     margin: 0 auto; }
@@ -203,6 +206,7 @@ header {
         flex-wrap: wrap;
         width: 80%; } }
     .section__3__cards__card {
+      width: 33%;
       padding: 2rem; }
       .section__3__cards__card--active {
         background-color: #388659;
@@ -229,7 +233,7 @@ header {
   margin: 0 auto;
   padding: 12rem 0;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   width: 80%;
   margin: 0 auto; }
   @media screen and (min-width: 359px) and (max-width: 500px) {
