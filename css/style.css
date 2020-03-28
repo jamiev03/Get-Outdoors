@@ -124,7 +124,7 @@ header {
   .section__2__h2 {
     font-size: 3.5rem;
     padding-bottom: 3rem;
-    width: 50%;
+    width: 80%;
     text-align: center;
     margin: 0 auto; }
     @media screen and (min-width: 359px) and (max-width: 500px) {
@@ -132,7 +132,7 @@ header {
         width: 80%; } }
   .section__2__p {
     font-size: 1.6rem;
-    width: 50%;
+    width: 80%;
     text-align: center;
     margin: 0 auto; }
     @media screen and (min-width: 359px) and (max-width: 500px) {
@@ -140,7 +140,8 @@ header {
         width: 80%; } }
   .section__2__cards {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
     padding-top: 7rem;
     width: 80%;
     margin: 0 auto; }
@@ -213,7 +214,7 @@ header {
           font-size: 1.4rem; }
       .section__3__cards__card img {
         width: 300px;
-        height: auto;
+        height: 235px;
         display: inline-block;
         border-radius: 5px; }
       .section__3__cards__card i {

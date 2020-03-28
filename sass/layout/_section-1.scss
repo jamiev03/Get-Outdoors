@@ -40,7 +40,7 @@
     &__h2 {
         font-size: $font-h2;
         padding-bottom: 3rem;
-        width: 50%;
+        width: 80%;
         text-align: center;
         margin: 0 auto;
 
@@ -51,7 +51,7 @@
 
     &__p {
         font-size: $font-size-regular;
-        width: 50%;
+        width: 80%;
         text-align: center;
         margin: 0 auto;
 
@@ -63,9 +63,10 @@
 
     &__cards {
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
+        align-items: center;
         padding-top: 7rem;
-        width: 80%;
+        width: 100%;
         margin: 0 auto;
 
         @include atSmall {
@@ -140,7 +141,7 @@
 
     &__cards {
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         padding-top: 7rem;
         width: 80%;
         margin: 0 auto;
@@ -156,6 +157,7 @@
             &--active {
                 background-color: $color-primary-dark;
                 border-radius: 5px;
+                padding: 2rem;
             }
             
             &__h4 {
@@ -169,7 +171,7 @@
 
             img {
                 width: 300px;
-                height: auto;
+                height: 235px;
                 display: inline-block;
                 border-radius: 5px;
             }
@@ -191,7 +193,7 @@
     margin: 0 auto;
     padding: 12rem 0;
     display: flex;
-    justify-content: space-around;   
+    justify-content: space-between   
     width: 80%;
     margin: 0 auto;
 
