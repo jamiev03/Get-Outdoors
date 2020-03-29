@@ -59,6 +59,10 @@
             width: 80%;
         }
 
+        @include atMedium {
+            padding-bottom: 3rem;
+        }
+
     }
 
     &__cards {
@@ -74,15 +78,25 @@
             width: 80%;
         }
 
+        @include atMedium {
+            flex-wrap: wrap;
+            width: 80%;
+        }
+
         &__card { 
             width: 33%;
-            
-            text-align: center;
+            padding-top: 2rem;
 
             @include atSmall {
                 padding-top: 2.5rem;
                 width: 100%;
+                text-align: center;
             }
+
+            @include atMedium {
+                width: 80%;
+            }
+
             
             &__h4 {
                 font-size: $font-size-regular;
@@ -100,6 +114,11 @@
                 border-radius: 5px;
                 text-align: center;
                 margin: 0 auto;
+
+                @include atMedium {
+                    width: 360px;
+                    height: 265px;
+                }
             }
         }
     }

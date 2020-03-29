@@ -138,6 +138,9 @@ header {
     @media screen and (min-width: 359px) and (max-width: 500px) {
       .section__2__p {
         width: 80%; } }
+    @media screen and (min-width: 501px) and (max-width: 768px) {
+      .section__2__p {
+        padding-bottom: 3rem; } }
   .section__2__cards {
     display: flex;
     justify-content: center;
@@ -149,13 +152,21 @@ header {
       .section__2__cards {
         flex-wrap: wrap;
         width: 80%; } }
+    @media screen and (min-width: 501px) and (max-width: 768px) {
+      .section__2__cards {
+        flex-wrap: wrap;
+        width: 80%; } }
     .section__2__cards__card {
       width: 33%;
-      text-align: center; }
+      padding-top: 2rem; }
       @media screen and (min-width: 359px) and (max-width: 500px) {
         .section__2__cards__card {
           padding-top: 2.5rem;
-          width: 100%; } }
+          width: 100%;
+          text-align: center; } }
+      @media screen and (min-width: 501px) and (max-width: 768px) {
+        .section__2__cards__card {
+          width: 80%; } }
       .section__2__cards__card__h4 {
         font-size: 1.6rem;
         padding: 3rem; }
@@ -169,6 +180,10 @@ header {
         border-radius: 5px;
         text-align: center;
         margin: 0 auto; }
+        @media screen and (min-width: 501px) and (max-width: 768px) {
+          .section__2__cards__card img {
+            width: 360px;
+            height: 265px; } }
 
 .section--background--3 {
   background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url(../img/landscape-mountains-nature-sky-129105.jpg);
