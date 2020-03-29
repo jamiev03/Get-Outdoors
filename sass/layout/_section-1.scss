@@ -183,12 +183,23 @@
             width: 80%;
         }
 
+        @include atMedium {
+            flex-wrap: wrap;
+            width: 80%;
+        }
+
         &__card {
             width: 33%;
             padding-top: 2rem;
 
             @include atSmall {
+                padding-top: 2.5rem;
                 width: 100%;
+                text-align: center;
+            }
+
+            @include atMedium {
+                width: 80%;
             }
             
             &--active {
@@ -216,6 +227,11 @@
                 border-radius: 5px;
                 margin: 0 auto;
                 text-align: center;
+
+                @include atMedium {
+                    width: 360px;
+                    height: 265px;
+                }
             }
 
             i {
@@ -244,6 +260,10 @@
         width: 80%;
     }
 
+    @include atMedium {
+        flex-wrap: wrap;
+    }
+
     &__p {
         font-size: $font-size-regular;
         width: 50%;
@@ -259,6 +279,11 @@
                 text-align: center;
                 margin: 0 auto;
                 width: 80%;
+            }
+
+            @include atMedium {
+                width: 80%;
+                padding-bottom: 2rem;
             }
         }
 
